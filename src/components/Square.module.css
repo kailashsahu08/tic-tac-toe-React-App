@@ -1,0 +1,8 @@
+.squareStyle{
+    width: 60px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 30px;
+    display: grid;
+    place-items: center;
+}
