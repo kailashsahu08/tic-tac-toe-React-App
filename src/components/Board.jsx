@@ -22,8 +22,10 @@ const Board = () =>{
     let status;
     if (winner) {
         status = 'Winner: ' + winner;
-    } else {
+    } else if(square.includes(null)){
         status = 'Next player: ' + (xIsNext ? 'X' : 'O');
+    } else {
+        status = 'Match Draw';
     }
     //refresh button function
     function refresh(){
