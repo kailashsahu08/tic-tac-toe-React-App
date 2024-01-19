@@ -7,7 +7,7 @@ function Square({value , onSquareClick}){
     
     return (
         <>
-            <button className={styles.squareStyle} onClick={onSquareClick}>
+            <button className={`${styles.squareStyle} ${styles.button}`} onClick={onSquareClick}>
                {value}
             </button>
         </>
